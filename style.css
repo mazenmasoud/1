@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+body, html {
+	margin: 0;
+	padding: 0;
+font-family:'Amiri', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* PAGE GALLERY */
+.wrapper {
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+.change {
+        color: #fff;
+        width: 40%;
+        border: none;
+        padding: 5px;
+        outline: none;
+        background: linear-gradient(to right, #A12561, #FFD900); 
+        
+        margin-top: 35px;
+        
+        font-size: 15px;
+        font-weight: 800;
+        border-radius: 19px;
+        text-decoration: none;
+        box-shadow: 0 0px 20px rgba(0,0,0,0.9);
+        transition: 200ms ease-in-out;
+            
+        }
+        .dark{
+            background-color: #222;
+            color: #000;
+        }
+
+.pagee_categories {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+.gallerry {
+	width: 100%;
+	height: 30px;
+	margin: 10px;
+	padding: 10px 1px 1px 1px;
+	border-radius: 14px;
+	transition: 200ms ease-in-out;
+}
+.fightinng_games {
+			background: linear-gradient(to right,  #F4D53C, #FF9000, #FFD900); 
+	
+}
+/* BOTTOM CARDS */
+.popular_title {
+	margin-top: 10px;
+	color:#000;
+}
+.popular_games {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.popular-card {
+	width: 110px;
+	height: 150px;
+	margin: 7px;
+	background: #000;
+	border-radius: 14px;
+	transition: 200ms ease-in-out;
+}
+.popular-card:hover {
+	margin-top: -1px;
+}
+.popular_games {
+	width: 100%;
+	margin-top: 10px;
+}
+.shooting {
+	background: linear-gradient(to right,  #F4D53C, #FF9000, #FFD900); 
+	
+	}
+
+.sports {
+	background: linear-gradient(to right,  #F4D53C, #FF9000, #FFD900); 
+	
+}
+
+
+.girls {
+	background: linear-gradient(to right,  #F4D53C, #FFD900, #FF9000); 
+	
+}
+
+
+.img_container {
+	width: 50px;
+	height: 50px;
+	margin: 5px auto;
+	background-size: cover;
+	border-radius: 50%;
+	
+}
+
+.game_title {
+	color: #000;
+	font-size: 20px;
+	margin-top: 40px;
+	font-weight: 800;
+}
+
+
+
+
+.container {
+  max-width: 75rem;
+  width: 90%;
+  padding: .5rem 1rem;
+  margin: 0 auto;
+}
+
+.main .container .swiper-container .swiper-wrapper .swiper-slide .card-image {
+  background: #000;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  border-radius: 50%;
+}
+.main .container .swiper-container .swiper-wrapper .swiper-slide .card-image img {
+  display: block;
+  position: relative;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+border-radius: 5%;
+}
+.main .container .swiper-container .swiper-pagination-bullet {
+  opacity: 0.8;
+  background: #252a32;
+}
+.main .container .swiper-container .swiper-pagination-bullet-active {
+  background: #ffffff;
+}
+.main .container .swiper-container .swiper-button-next,
+.main .container .swiper-container .swiper-button-prev {
+  background-image: none;
+  background-size: 0;
+  background-repeat: no-repeat;
+  background-position: 0;
+  margin-top: -1rem;
+}
+.main .container .swiper-container .swiper-button-next .arrow-icon,
+.main .container .swiper-container .swiper-button-prev .arrow-icon {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+.popular_gamess {
+	display: grid;
+	grid-template-columns: 1fr 1fr  ;
+	grid-gap: 1rem;
+}
+.popular-cardd {
+
+	width: 180px;
+	height: 110px;
+	margin: 2px;
+	margin-left:12px;
+	margin-bottom:35px;
+	background: #000;
+	border-radius: 14px;
+	transition: 200ms ease-in-out;
+}
+
+.shootingg {
+	background-image: url('https://cdn.dribbble.com/users/770877/screenshots/2628403/media/90685a1adb74815d09a1477a2cfb09ab.gif');
+	background-size: cover;
+	
+}
+
+.sportss {
+
+	background-image: url('https://cdn.dribbble.com/users/770877/screenshots/2628403/media/90685a1adb74815d09a1477a2cfb09ab.gif');
+	background-size: cover;
+}
+
+.fightingg {
+	background-image: url('https://cdn.dribbble.com/users/770877/screenshots/2628403/media/90685a1adb74815d09a1477a2cfb09ab.gif');
+	background-size: cover;
+}
+.racingg {
+	background-image: url('https://cdn.dribbble.com/users/770877/screenshots/2628403/media/90685a1adb74815d09a1477a2cfb09ab.gif');
+	background-size: cover;
+	
+}
+.girlss {
+	background-image: url('https://cdn.dribbble.com/users/770877/screenshots/2628403/media/90685a1adb74815d09a1477a2cfb09ab.gif');
+	background-size: cover;
+	
+}
+
+.RBGG {
+	background-image: url('https://cdn.dribbble.com/users/770877/screenshots/2628403/media/90685a1adb74815d09a1477a2cfb09ab.gif');
+	background-size: cover;
+	
+}
+.imgg_container {
+	width: 35px;
+	height: 35px;
+	margin-left:120px;
+	margin-top:30px;
+	border:2px solid #fff;
+	border-radius: 10px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0 0px 30px rgba(0,0,0,0.5);
+}
+
+.game_titlee {
+	color: #fff;
+	width: 45%;
+	border: none;
+	padding: 1px;
+	outline: none;
+	background: linear-gradient(to right, #666, #000); 
+	
+	margin-top: -61px;
+	margin-left: 10px;
+	font-size: 10px;
+	font-weight: 800;
+	border-radius: 19px;
+	text-decoration: none;
+	box-shadow: 0 0px 20px rgba(0,0,0,0.9);
+	transition: 200ms ease-in-out;
+}
+
+.download_button {
+	color: #fff;
+	width: 40%;
+	border: none;
+	padding: 5px;
+	outline: none;
+	background: linear-gradient(to right, #666, #000); 
+	
+	margin-top: 35px;
+	
+	font-size: 15px;
+	font-weight: 800;
+	border-radius: 19px;
+	text-decoration: none;
+	box-shadow: 0 0px 20px rgba(0,0,0,0.9);
+	transition: 200ms ease-in-out;
+}
+
+.download_button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	background: rgba(225,225,225,0.4);
+}
